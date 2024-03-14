@@ -25,7 +25,8 @@ codegen-units = 1
 overflow-checks = true
 
 [dependencies]
-phoenix-v1 = { version = "0.2.2", features = [ "no-entrypoint" ] }
+#phoenix-v1 = { version = "0.2.2", features = [ "no-entrypoint" ] }
+phoenix-v1 = { git = "https://github.com/aruntevatia/phoenix-v1.git", branch = "master", features=["no-entrypoint"] }
 shank = "=0.0.12"
 solana-program = "1.16"
 bytemuck = "1"
